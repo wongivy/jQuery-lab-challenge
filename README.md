@@ -1,4 +1,6 @@
 jQuery-lab-challenge
 ====================
 
-INFO343 Lab
+INFO 343 Lab
+Challenge 1: countdown timer
+Challenge 2: image gallery carousel

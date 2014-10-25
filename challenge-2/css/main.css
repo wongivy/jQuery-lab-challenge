@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+	font-family: 'Open Sans', 'Helvetica Neue', 'sans-serif';
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: BLACK;
+	color: SILVER;
+	font-size: 18px;
+	text-align: center;
+}
+
+header {
+	background-color: rgba(2, 38, 54, 0.8);
+	padding-bottom: 0.5em;
+}
+
+#frame {
+	width: 800px;
+	height: 500px;
+	overflow: hidden;
+	margin: 2em auto;
+	border: 7px solid #022636;
+	
+}
+
+#container {
+	width: 4800px;
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+	-moz-transition: -moz-transform 1s ease-in-out;
+	-ms-transition: -ms-transform 1s ease-in-out;
+	-o-transition: -o-transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
+}
+
+.img-item {
+	width: 800px;
+	height: 500px;
+	float: left;
+}
+
+.btn {
+	width: 100px;
+	border-radius: 0;
+}
+
+.btn-primary {
+	background-color: #022636;
+	border-color: #022636;
+}
