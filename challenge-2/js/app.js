@@ -14,12 +14,10 @@ $(function() {
 	var buttons = $(':button');
 
 	// Apply the same function and effect to each button.
-	$.each(buttons, function() {
+	buttons.click(function() {
 		var button = $(this);
-		button.click(function() {
-			setButtonStyle(button, buttons);
-			moveImageIntoFrame(button);	
-		});
+		setButtonStyle(button, buttons);
+		moveImageIntoFrame(button);
 	});
 });
 
@@ -38,7 +36,7 @@ function setButtonStyle(selectedButton, buttons) {
 		-- Remember you can pass in a function to fadeIn/fadeOut. Use it to set attributes during transition.
 */
 function moveImageIntoFrame(button) {
-
+	console.log('here');
 }
 
 
@@ -66,6 +64,7 @@ function generateButtons() {
 			'value'	: textValue
 		});
 
+		button.data('imageKey', images[idx]); // Set data for button to be retrieved later.
 		button.text(textValue);
 		button.appendTo(field);
 	}
