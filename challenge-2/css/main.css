@@ -22,16 +22,7 @@ header {
 	overflow: hidden;
 	margin: 2em auto;
 	border: 7px solid #022636;
-	
-}
-
-#container {
-	width: 4800px;
-	-webkit-transition: -webkit-transform 1s ease-in-out;
-	-moz-transition: -moz-transform 1s ease-in-out;
-	-ms-transition: -ms-transform 1s ease-in-out;
-	-o-transition: -o-transform 1s ease-in-out;
-	transition: transform 1s ease-in-out;
+	background-color: #022636;
 }
 
 .img-item {
