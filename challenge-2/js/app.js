@@ -22,7 +22,7 @@ $(function() {
 });
 
 
-// Hint: apply default styling to all buttons, and then apply 'active'
+// Hint: apply default styling to all buttons, and then apply only 'active' (btn-danger)
 // styling to the selected button.
 function setButtonStyle(selectedButton, buttons) {
 
@@ -31,7 +31,7 @@ function setButtonStyle(selectedButton, buttons) {
 /*
 	Hints:
 		-- To start, get the button's value and look for the associated image in the images object.
-		-- Look up syntax for $.each (foreach function in jQuery).
+		-- Look up syntax for $.data(). The key for it is 'imageKey'
 		-- Use jQuery fadeIn/fadeOut.
 		-- Remember you can pass in a function to fadeIn/fadeOut. Use it to set attributes during transition.
 */
